@@ -1,0 +1,13 @@
+label {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+
+#boton-calcular {
+    display: none;
+}
+
+span {
+    display: block;
+}

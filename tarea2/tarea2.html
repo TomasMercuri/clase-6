@@ -1,0 +1,43 @@
+<!--
+/*
+TAREA:
+Crear una interfaz que permita agregar ó quitar (botones agregar y quitar) inputs+labels para completar el salario anual de cada integrante de la familia que trabaje.
+Al hacer click en "calcular", mostrar en un elemento pre-existente el mayor salario anual, menor salario anual, salario anual promedio y salario mensual promedio.
+
+Punto bonus: si hay inputs vacíos, ignorarlos en el cálculo (no contarlos como 0).
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Clase 6, tarea 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tarea2.css'>
+</head>
+<body>
+    <div class="container">
+        <section class="salarios">
+            <label>Salario anual</label>
+            <button type="button" id="boton-agregar">+</button>
+            <button type="button" id="boton-quitar">-</button>
+        </section>
+
+        <button type="button" id="boton-calcular">Calcular</button>
+
+        <section class="informacion-container">
+            <span id="mayor-salario"></span>
+            <span id="menor-salario"></span>
+            <span id="promedio-salario-anual"></span>
+            <span id="promedio-salario-mensual"></span>
+        </section>
+    </div>
+
+
+
+
+    <script src='tarea2.js'></script>
+</body>
+</html>
